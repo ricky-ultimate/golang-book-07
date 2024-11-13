@@ -10,12 +10,8 @@ if it was odd. For example half(1) should return
 true).
 */
 func question2(x int) (int, bool) {
-	half := x / 2
-	if half%2 == 0 {
-		return half, true
-	} else {
-		return half, false
-	}
+	isEven := x % 2 == 0
+  return n / 2, isEven
 }
 
 /*
